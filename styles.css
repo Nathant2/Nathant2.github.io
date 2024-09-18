@@ -41,10 +41,11 @@ footer {
     padding: 10px 0;
     background-color: #333;
     color: #fff;
-    position: fixed;
+    position: static; 
     width: 100%;
     bottom: 0;
 }
+
 
 .project {
     margin-bottom: 20px;
