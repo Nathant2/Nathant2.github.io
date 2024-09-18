@@ -3,8 +3,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px; /* Add enough padding to account for footer height */
     background-color: #f4f4f4;
 }
+
 
 header {
     background-color: #333;
@@ -41,11 +43,10 @@ footer {
     padding: 10px 0;
     background-color: #333;
     color: #fff;
-    position: static; 
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
-
 
 .project {
     margin-bottom: 20px;
